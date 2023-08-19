@@ -16,3 +16,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('inicio');
 });
+
+Route::get('/medicos', function () {
+    return view('medicos.index');
+});
+
+Route::get('/medicos/1/perfil', function () {
+    return view('medicos.perfil1');
+});
+
+Route::get('/medicos/2/perfil', function () {
+    return view('medicos.perfil2');
+});
+
+Route::get('/medicos/3/perfil', function () {
+    return view('medicos.perfil3');
+});

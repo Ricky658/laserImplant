@@ -1,3 +1,7 @@
+body{
+  background-color: #ddd;
+}
+
 .container{
   margin: auto;
   background-color: white;
@@ -90,4 +94,65 @@ ul.slider li:target {
   padding: 20px;
   font-size: 20px;
   font-weight: bold;
+}
+
+
+
+.medico-marco{
+  height: 90vh;
+}
+
+.medico-encabezado, .perfil{
+  padding-top: 120px;
+}
+
+.medico-encabezado h3, .medico-card  h5, .medico-card  h6, .medico-card a{
+  font-weight: bold;
+}
+
+.medico-encabezado p{
+  text-align: center;
+}
+
+.medico-card{
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.medico-card  img{
+  border-radius: 10px;
+  width: 100%;
+}
+
+.medico-card a{
+  font-size: 12px;
+}
+
+.medico-card p{
+  font-size: 12px;
+  text-align: justify;
+}
+
+.perfil img{
+  width: 80px;
+  border-radius: 100%;
+}
+
+.perfil h3{
+  font-weight: bold;
+}
+
+.perfil p{
+  font-size: 12px;
+  text-align: justify;
+}
+
+.perfil .col-md-6{
+  display: flex;
+  align-items: center;
+}
+
+.perfil iframe{
+  width: 100%;
 }

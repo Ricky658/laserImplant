@@ -5,8 +5,8 @@
         </div>
         <div class="col-md-9">
             <ul>
-                <li><a href="#home">INICIO</a></li>
-                <li><a href="#home">DOCTORES</a></li>
+                <li><a href="{{url('')}}">INICIO</a></li>
+                <li><a href="{{url('medicos')}}">DOCTORES</a></li>
                 <li><a href="#home">TESTIMONIOS</a></li>
                 <li><a href="#home">ANTES Y DESPÚES</a></li>
                 <li><a href="#home">INDICACIONES</a></li>

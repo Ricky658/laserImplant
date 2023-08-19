@@ -7,10 +7,10 @@
             <ul>
                 <li><a href="{{url('')}}">INICIO</a></li>
                 <li><a href="{{url('medicos')}}">DOCTORES</a></li>
-                <li><a href="#home">TESTIMONIOS</a></li>
-                <li><a href="#home">ANTES Y DESPÚES</a></li>
-                <li><a href="#home">INDICACIONES</a></li>
-                <li><a href="#home">CLÍNICA</a></li>
+                <li><a href="{{url('testimonios')}}">TESTIMONIOS</a></li>
+                <li><a href="{{url('antesDespues')}}">ANTES Y DESPÚES</a></li>
+                <li><a href="{{url('indicaciones')}}">INDICACIONES</a></li>
+                <li><a href="{{url('clinica')}}">CLÍNICA</a></li>
             </ul>
         </div>
     </div>

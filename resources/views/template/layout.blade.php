@@ -81,7 +81,7 @@
         .div3{
             background: yellow
         }
-        .marco-banner{
+        .marco-banner, .inidicaciones-marco{
             height:90vh;
         }
 

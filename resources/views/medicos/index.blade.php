@@ -11,7 +11,7 @@
     <div class="row">
         <div class="col-md-4">
             <div class="medico-card">
-                <img src="{{url('img/dra.png')}}">
+                <img src="{{url('img/dra.jpg')}}">
                 <h5>Dra. Carmen Vallejo</h5>
                 <h6>Cirujanos Maxilofacial</h6>
                 <p>Graduada como Doctora en Odontología en la Universidad Central del Ecuador, especialista en Ortodoncia y Ortopedia de los Maxilares.</p>
@@ -20,7 +20,7 @@
         </div>
         <div class="col-md-4">
             <div class="medico-card">
-                <img src="{{url('img/dra.png')}}">
+                <img src="{{url('img/dra.jpg')}}">
                 <h5>Dra. Carmen Vallejo</h5>
                 <h6>Rehabilitador Oral</h6>
                 <p>Graduada como Doctora en Odontología en la Universidad Central del Ecuador, especialista en Ortodoncia y Ortopedia de los Maxilares.</p>
@@ -29,7 +29,7 @@
         </div>
         <div class="col-md-4">
             <div class="medico-card">
-                <img src="{{url('img/dra.png')}}">
+                <img src="{{url('img/dra.jpg')}}">
                 <h5>Dra. Carmen Vallejo</h5>
                 <h6>Odontóloga Restauradora</h6>
                 <p>Graduada como Doctora en Odontología en la Universidad Central del Ecuador, especialista en Ortodoncia y Ortopedia de los Maxilares.</p>

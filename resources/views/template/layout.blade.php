@@ -81,7 +81,7 @@
         .div3{
             background: yellow
         }
-        .marco-banner, .inidicaciones-marco{
+        .marco-banner, .inidicaciones-marco, .testimonios-marco, .cambios-marco{
             height:90vh;
         }
 

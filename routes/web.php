@@ -37,6 +37,12 @@ Route::get('/medicos/3/perfil', function () {
 Route::get('/indicaciones', function () {
     return view('indicaciones');
 });
+Route::get('/testimonios', function () {
+    return view('testimonios');
+});
+Route::get('/cambios', function () {
+    return view('cambios');
+});
 Route::get('/clinica', function () {
     return view('clinica');
 });

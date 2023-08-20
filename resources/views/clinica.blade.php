@@ -46,7 +46,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <img class="img" src="{{url('img/clinica.png')}}">
+            <img class="img" src="{{url('img/clinica.jpg')}}">
         </div>
     </div>
 </div>

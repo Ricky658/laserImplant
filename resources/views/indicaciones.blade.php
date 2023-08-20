@@ -5,7 +5,7 @@
 <div class="offset-md-1 col-md-10 indicaciones-marco">
     <div class="row">
         <div class="col-md-6 marco-img">
-            <img class="img" src="{{url('img/diente.png')}}">
+            <img class="img" src="{{url('img/diente.jpg')}}">
         </div>
         <div class="col-md-6">
             <h3>INDICACIONES EXODONCIA</h3>

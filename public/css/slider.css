@@ -221,3 +221,114 @@ ul.slider li:target {
   height: 270px;
   border-radius: 10px;
 }
+
+
+/*    testimonios  */
+
+.testimonios-marco .izq, .testimonios-marco .der{
+  display: flex;
+  align-items: center;
+}
+
+.testimonios-marco .der{
+  background-color: #E5B90D;
+}
+
+.testimonios-marco .row{
+  height: 100%;
+}
+
+.testimonios-marco h1{
+  font-weight: bold;
+}
+
+.testimonios-marco .botonera{
+  border-radius: 10px;
+  background-color: #FFFFFF65;
+  padding: 5px;
+  display: inline-block;
+}
+
+.testimonios-marco .botonera .btn-izquierda{
+  border-radius: 5px;
+  background-color: white;
+  color: #E5B90D;
+}
+
+.testimonios-marco .botonera .btn-derecha{
+  border-radius: 5px;
+  background-color: #E5B90D;
+  color: white;
+}
+
+.testimonios-marco .calificacion-usuario{
+  display:inline-flex
+}
+
+.testimonios-marco .calificacion-usuario img{
+  width: 80px;
+  border-radius: 100%;
+}
+
+.testimonios-marco .fa-star{
+  color: #E5B90D;
+  font-size: 12px;
+}
+
+.testimonios-marco .der iframe{
+  width: 100%;
+}
+
+
+
+/*  cambios  */
+.cambios-marco .row, .cambios-marco .antes .row{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.cambios-menu{
+  height: 60%;
+}
+
+.cambios-marco .antes img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cambios-marco .antes H4{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.cambios-marco .antes p{
+  font-size: 12px;
+  text-align: justify;
+}
+
+.cambios-marco svg{
+  font-size: 30px;
+  color: #E5B90D;
+}
+
+.cambios-marco .accordion-button{
+  background-color: #E5B90D;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cambios-marco .accordion-body{
+  background-color: #ddd;
+  padding: 2px;
+}
+
+.cambios-marco .accordion-boton{
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  width: auto;
+}

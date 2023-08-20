@@ -7,7 +7,7 @@
         <div class="col-md-6 mt-5">
             <div class="row">
                 <div class="col-md-2">
-                    <img src="{{url('img/dra.png')}}">
+                    <img src="{{url('img/dra.jpg')}}">
                 </div>
                 <div class="col-md-10">
                     <h3>Dra. Carmen Vallejo</h3>
@@ -42,7 +42,7 @@
             </div>
         </div>
         <div class="col-md-6 mt-5">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/8JyQfb8vR9U?si=05z5rgDaaLnb4rou" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="400" src="https://www.youtube.com/embed/8JyQfb8vR9U?si=05z5rgDaaLnb4rou" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </div>
 </div>

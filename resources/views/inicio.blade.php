@@ -8,14 +8,14 @@
     <div class="container">
         <ul class="slider">
           <li id="slide1">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3947459/car.jpg"/>
+            <img src="{{url('img/banner/a_b1.png')}}"/>
             <div class="etiqueta"><label>ODONTOLOGÍA & <br> ESTÉTICA DENTAL</label></div>
           </li>
           <li id="slide2">
-            <img src="https://www.gamespot.com/a/uploads/scale_super/1597/15976769/4097326-the-super-mario-bros.-movie-poster.jpg">
+            <img src="{{url('img/banner/a_b2.png')}}">
           </li>
           <li id="slide3">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3947459/sunset.jpg"/>
+            <img src="{{url('img/banner/a_b3.png')}}"/>
           </li>
         </ul>
         
@@ -36,7 +36,7 @@
       <div class="container">
         <ul class="slider">
           <li id="slide4">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3947459/car.jpg"/>
+            <img src="{{url('img/banner/b_b1.png')}}"/>
             <div class="etiqueta"><label>CIRUGÍA <br> ESTÉTICA FACIAL</label></div>
           </li>
           <li id="slide5">
@@ -65,14 +65,14 @@
       <div class="container">
         <ul class="slider">
           <li id="slide7">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3947459/car.jpg"/>
+            <img src="{{url('img/banner/c_b1.png')}}"/>
             <div class="etiqueta"><label>CIRUGÍA MAXILOFACIAL <br> E IMPLANTES DENTALES</label></div>
           </li>
           <li id="slide8">
-            <img src="https://www.gamespot.com/a/uploads/scale_super/1597/15976769/4097326-the-super-mario-bros.-movie-poster.jpg">
+            <img src="{{url('img/banner/c_b2.png')}}">
           </li>
           <li id="slide9">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3947459/sunset.jpg"/>
+            <img src="{{url('img/banner/c_b3.jpg')}}"/>
           </li>
         </ul>
         

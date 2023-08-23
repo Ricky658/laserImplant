@@ -1,5 +1,5 @@
 <div class="offset-md-1 col-md-10 menu-pagina">
-    <div class="row">
+    <div class="row m-0">
         <div class="col-md-3">
             
         </div>

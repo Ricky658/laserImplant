@@ -10,10 +10,10 @@
                     <img src="{{url('img/dra.jpg')}}">
                 </div>
                 <div class="col-md-10">
-                    <h3>Dra. Carmen Vallejo</h3>
-                    <h4>Cirujanos Maxilofacial</h4>
+                    <h4>Dra. Carmen Vallejo</h4>
+                    <h5>Cirujanos Maxilofacial</h5>
                 </div>
-                <p class="mt-3">
+                <p class="mt-3 bio">
                     Nació en Riobamba, pero ha vivido la mayor parte de su vida en ciudades como Ambato, Quito en la sierra ecuatoriana y en Buenos Aires, Argentina país que ama como el suyo. 
                     Ahora se encuentra radicado en Machala, hermosa ciudad de la costa Ecuatoriana, cercana a Perú. 
                     <br><br>  

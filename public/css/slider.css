@@ -99,14 +99,21 @@ ul.slider li:target {
 
 
 .medico-marco, .indicaciones-marco, .clinica-marco{
-  height: 90vh;
+  height: 92vh;
 }
 
-.medico-encabezado, .perfil{
-  padding-top: 120px;
+.medico-marco{
+  display: flex;
+  align-items: center;
+}
+.medico-marco .bio{
+  font-size: 10px;
+  overflow-y: scroll;
+  height: 300px;
 }
 
-.medico-encabezado h3, .medico-card  h5, .medico-card  h6, .medico-card a{
+
+.medico-encabezado h3, .medico-encabezado h4, .medico-card  h5, .medico-card  h6, .medico-card a{
   font-weight: bold;
 }
 
@@ -129,9 +136,25 @@ ul.slider li:target {
   font-size: 12px;
 }
 
-.medico-card p{
-  font-size: 12px;
+.medico-card h5{
+  font-size: 16px;
+  font-weight: bold;
   text-align: justify;
+}
+.medico-card h6{
+  font-size: 13px;
+  text-align: justify;
+}
+.medico-card p{
+  font-size: 10px;
+  text-align: justify;
+}
+
+.medico-encabezado h5{
+  font-weight: bold;
+}
+.medico-encabezado p{
+  font-size: 12px;
 }
 
 .perfil img{
@@ -238,7 +261,7 @@ ul.slider li:target {
   height: 100%;
 }
 
-.testimonios-marco h1{
+.testimonios-marco h3, .testimonios-marco h4{
   font-weight: bold;
 }
 
@@ -259,6 +282,10 @@ ul.slider li:target {
   border-radius: 5px;
   background-color: #E5B90D;
   color: white;
+}
+
+.testimonios-marco p{
+  font-size: 10px;
 }
 
 .testimonios-marco .calificacion-usuario{

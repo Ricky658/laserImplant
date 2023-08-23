@@ -18,13 +18,19 @@
             position: relative;
             margin: 0px;
         }
-        .menu-pagina, footer{
+        .menu-pagina{
             background: black;
-            border-radius: 10px;
+            border-radius: 20px;
             position:absolute;
             height: 80px;
-            transform: translate(0px, 40px);
+            transform: translate(0px, 10px);
             z-index: 9999;
+            display: flex;
+            align-items: center;
+        }
+
+        .menu-pagina .row{
+            width: 100%;
         }
 
         .menu-pagina ul, .footer ul{
@@ -32,15 +38,19 @@
             list-style-type: none;
         }
         .menu-pagina ul li, .footer  ul li{
-            font-size: 16px;
-            font-weight:bold
+            font-size: 14px;
+            font-weight:bold;
+            display: flex;
+            align-items: center;
         }
         
         .menu-pagina li a, .footer li a, .footer li a label{
             color: #FCC00D;
             display:block;
             text-align: center;
-            padding: 25px;
+            padding: 15px;
+            padding-left: 25px;
+            padding-right: 25px;
             text-decoration: none;
         }
         .footer li a svg, .footer li a label{
@@ -48,7 +58,7 @@
             transition: opacity 2.5s;
         }
         .footer li a{
-            font-size: 26px
+            font-size: 20px
         }
         .footer li a label{
             padding: 3px;
@@ -82,12 +92,12 @@
             background: yellow
         }
         .marco-banner, .inidicaciones-marco, .testimonios-marco, .cambios-marco{
-            height:90vh;
+            height:92vh;
         }
 
         .footer{
             background: black;
-            height: 10vh;
+            height: 8vh;
         }
 
 

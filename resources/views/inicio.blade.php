@@ -21,13 +21,13 @@
         
         <ul class="menu">
           <li>
-            <a class="menu-boton" href="#slide1"></a>
+            <a id="menu-boton-a1" onclick="cambio('a',1)" href="#slide1"><i id="menu-boton-i-a1" style="color:white; font-size:12px" class="fa-regular fa-circle"></i></a>
           </li>
           <li>
-            <a class="menu-boton" href="#slide2"></a>
+            <a id="menu-boton-a2" onclick="cambio('a',2)" href="#slide2"><i id="menu-boton-i-a2" style="color:white; font-size:12px" class="fa-regular fa-circle"></i></a>
           </li>
           <li>
-            <a class="menu-boton" href="#slide3"></a>
+            <a id="menu-boton-a3" onclick="cambio('a',3)" href="#slide3"><i id="menu-boton-i-a3" style="color:white; font-size:12px" class="fa-regular fa-circle"></i></a>
           </li>
         </ul>
     </div>
@@ -49,13 +49,13 @@
         
         <ul class="menu">
           <li>
-            <a class="menu-boton" href="#slide4"></a>
+            <a id="menu-boton-b1" onclick="cambio('b',1)" href="#slide4"><i id="menu-boton-i-b1" style="color:white; font-size:12px" class="fa-regular fa-circle"></i></a>
           </li>
           <li>
-            <a class="menu-boton" href="#slide5"></a>
+            <a id="menu-boton-b2" onclick="cambio('b',2)" href="#slide5"><i id="menu-boton-i-b2" style="color:white; font-size:12px" class="fa-regular fa-circle"></i></a>
           </li>
           <li>
-            <a class="menu-boton" href="#slide6"></a>
+            <a id="menu-boton-b3" onclick="cambio('b',3)" href="#slide6"><i id="menu-boton-i-b3" style="color:white; font-size:12px" class="fa-regular fa-circle"></i></a>
           </li>
         </ul>
         
@@ -78,13 +78,13 @@
         
         <ul class="menu">
           <li>
-            <a class="menu-boton" href="#slide7"></a>
+            <a id="menu-boton-c1" onclick="cambio('c',1)" href="#slide7"><i id="menu-boton-i-c1" style="color:white; font-size:12px" class="fa-regular fa-circle"></i></a>
           </li>
           <li>
-            <a class="menu-boton" href="#slide8"></a>
+            <a id="menu-boton-c2" onclick="cambio('c',2)" href="#slide8"><i id="menu-boton-i-c2" style="color:white; font-size:12px" class="fa-regular fa-circle"></i></a>
           </li>
           <li>
-            <a class="menu-boton" href="#slide9"></a>
+            <a id="menu-boton-c3" onclick="cambio('c',3)" href="#slide9"><i id="menu-boton-i-c3" style="color:white; font-size:12px" class="fa-regular fa-circle"></i></a>
           </li>
         </ul>
         
@@ -92,7 +92,20 @@
     </div>
 </div>
 <script>
-  
+  function cambio(banner, pos){
+    //control.classList.toggle('active')
+
+    
+      for(i=1;i<=3; i++){
+        //document.getElementById('menu-boton-i-'+banner+i).classList.remove('active')
+        document.getElementById('menu-boton-i-'+banner+i).setAttribute('data-prefix','far')
+        
+      }
+
+      //document.getElementById('menu-boton-i-'+banner+pos).classList.add('active')
+      document.getElementById('menu-boton-i-'+banner+pos).setAttribute('data-prefix','fas')
+    
+  }
 </script>
 
 @endsection

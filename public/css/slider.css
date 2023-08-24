@@ -11,6 +11,9 @@ body{
   position: relative;
 }
 
+.marco-banner .active{
+  color: white;
+}
 ul, li {
     padding: 0;
     margin: 0;
@@ -48,10 +51,6 @@ ul.slider li:target {
     opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
 }
 
-.menu-boton:focus {
-  background-color: orange;
-}
-
 .menu{
   position: absolute;
   text-align: center;
@@ -70,12 +69,7 @@ ul.slider li:target {
 .menu li a{
   display: inline-block;
   text-decoration: none;
-  background-color: #ffffff;
-  padding: 3px;
-  width: 15px;
-  height: 15px;
   font-size: 20px;
-  border-radius: 100%;
 }
 
 .etiqueta{

@@ -13,18 +13,18 @@
                 <div class="col-md-4">
                     <div class="medico-card">
                         <img src="{{url('img/dra.jpg')}}">
-                        <h5 class="m-0 p-0">Dra. Carmen Vallejo</h5>
+                        <h5 class="m-0 p-0">Dr. Juan Carlos Cisneros</h5>
                         <h6 class="m-0 p-0">Cirujanos Maxilofacial</h6>
-                        <p>Graduada como Doctora en Odontología en la Universidad Central del Ecuador, especialista en Ortodoncia y Ortopedia de los Maxilares.</p>
+                        <p>Especialista en Cirugía Maxilofacial e Implantes Dentales, con experiencia en Quito y Buenos Aires. Conferencista internacional y docente.</p>
                         <a href="{{url('medicos/1/perfil')}}" class="btn btn-warning">Ver Perfil</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="medico-card">
                         <img src="{{url('img/dra.jpg')}}">
-                        <h5 class="m-0 p-0">Dra. Carmen Vallejo</h5>
+                        <h5 class="m-0 p-0">Dr. Renato Cisneros</h5>
                         <h6 class="m-0 p-0">Rehabilitador Oral</h6>
-                        <p>Graduada como Doctora en Odontología en la Universidad Central del Ecuador, especialista en Ortodoncia y Ortopedia de los Maxilares.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat...</p>
                         <a href="{{url('medicos/2/perfil')}}" class="btn btn-warning">Ver Perfil</a>
                     </div>
                 </div>

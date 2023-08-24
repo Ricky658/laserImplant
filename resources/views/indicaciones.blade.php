@@ -4,10 +4,10 @@
 
 <div class="offset-md-1 col-md-10 indicaciones-marco">
     <div class="row">
-        <div class="col-md-6 marco-img">
+        <div class="col-md-5 mt-4 marco-img">
             <img class="img" src="{{url('img/diente.jpg')}}">
         </div>
-        <div class="col-md-6">
+        <div class="offset-md-1 col-md-6 mt-4">
             <h3>INDICACIONES EXODONCIA</h3>
 
             <p>
@@ -33,7 +33,7 @@
             </p>
 
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <a class="btn btn-warning">AGENDAR CITA AQUI</a>
                 </div>
                 <div class="col-md-2">

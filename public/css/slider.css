@@ -96,7 +96,48 @@ ul.slider li:target {
   font-weight: bold;
 }
 
+@media (min-width:1368px) {
+  .medico-marco h5{
+    font-size: 35px;
+  }
+  .medico-marco p{
+    font-size: 14px !important;
+  }
 
+  .medico-marco .medico-card h5{
+    font-size: 18px !important;
+  }
+
+  .medico-marco .bio{
+    height: 400px !important;
+  }
+
+
+
+  .testimonios-marco p, .cambios-marco .antes h4{
+    font-size: 18px !important;
+  }
+
+  
+  .testimonios-marco h4{
+    font-size: 30px !important;
+    font-weight: 900;
+  }
+
+
+  .cambios-marco .antes p{
+    font-size: 12px !important;
+  }
+
+  .cambios-marco .accordion-boton, .cambios-marco .accordion-button{
+    font-size: 18px !important;
+  }
+
+  .cambios-marco .accordion-button{
+    padding: 20px !important;
+  }
+
+}
 
 .medico-marco, .indicaciones-marco, .clinica-marco{
   height: 92vh;
@@ -194,6 +235,7 @@ ul.slider li:target {
 }
 .indicaciones-marco .marco-img img{
   border-radius: 20px;
+  width: 100%;
 }
 .indicaciones-marco h3{
   font-weight: bold;
@@ -219,7 +261,7 @@ ul.slider li:target {
   align-items: center;
 }
 
-.clinica-marco h1, h2, h6, i{
+.clinica-marco h1, h2, h3, h6, i{
   font-weight: bold;
 }
 
@@ -243,6 +285,11 @@ ul.slider li:target {
   background: white;
   height: 270px;
   border-radius: 10px;
+}
+
+.clinica-marco .img{
+  /* max-height: 500px; */
+  width: 80%;
 }
 
 
@@ -286,6 +333,7 @@ ul.slider li:target {
 
 .testimonios-marco p{
   font-size: 10px;
+  text-align: justify;
 }
 
 .testimonios-marco .calificacion-usuario{
@@ -298,8 +346,14 @@ ul.slider li:target {
 }
 
 .testimonios-marco .fa-star{
-  color: #E5B90D;
   font-size: 12px;
+}
+
+.amarillo{
+  color: #E5B90D;
+}
+.gris{
+  color: #adadad;
 }
 
 .testimonios-marco .der iframe{
@@ -316,7 +370,7 @@ ul.slider li:target {
 }
 
 .cambios-menu{
-  height: 60%;
+  /*height: 60%;*/
 }
 
 .cambios-marco .antes img{
@@ -342,8 +396,11 @@ ul.slider li:target {
 .cambios-marco .accordion-button{
   background-color: #E5B90D;
   color: black;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .cambios-marco .accordion-body{
@@ -353,9 +410,17 @@ ul.slider li:target {
 
 .cambios-marco .accordion-boton{
   background-color: white;
-  padding: 10px;
+  padding: 5px;
   border-radius: 10px;
   margin-bottom: 5px;
   text-align: center;
   width: auto;
+}
+
+.cambios-marco .antes{
+  margin-top: 30px;
+}
+
+.cambios-marco .antes p{
+  font-size: 10px;
 }

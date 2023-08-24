@@ -55,20 +55,26 @@
         }
         .footer li a svg, .footer li a label{
             float:left;
-            transition: opacity 2.5s;
+            transition: display 2.5s;
+        }
+
+        .footer{
+            display: flex;
+            align-items: center;
         }
         .footer li a{
             font-size: 20px
         }
         .footer li a label{
             padding: 3px;
+            padding-top: 0px;
             padding-left:10px;
             font-size:14px
         }
 
         .footer li a svg:hover ~ .aparecer{
-            display:block !important;
             opacity: 1;
+            display:block !important;
         }
 
         .aparecer{

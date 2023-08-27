@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="{{ url('css/slider.css') }}">
 
 <div class="col-md-12 testimonios-marco">
-    <div class="row m-0">
+    <div class="row m-0 mt-3">
         <div class="col-md-5 izq">
             <div class="offset-md-2 col-md-8">
                 <h4>Mira lo que dicen <br> algunos de nuestros <br> pacientes</h4>
@@ -34,8 +34,8 @@
             </div>
         </div>
         <div class="col-md-7 der">
-            <div class="offset-md-2 col-md-8">
-                <iframe id="testimonio_youtube" height="300" src="https://www.youtube.com/watch?v=X64i-cl6nzk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="offset-xl-2 col-xl-8 offset-md-1 col-md-10 video">
+                <iframe id="testimonio_youtube" width="560" height="315" src="https://www.youtube.com/embed/v0nNa0hdC90?si=MWaj0GWj6R3GiqFA?enablejsapi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -48,13 +48,14 @@
         "Diseño de Sonrisa",
         "Conocí al Dr. Renato gracias a las redes sociales, me pareció espectacular los resultados que publicaba y me animé agendar una cita, me mostró sus casos y el procedimiento para el tratamiento, estoy muy feliz de confiar en su profesionalidad.",
         "{{url('img/dra.jpg')}}",
-        'https://www.youtube.com/watch?v=X64i-cl6nzk',
+        'https://www.youtube.com/embed/v0nNa0hdC90?si=MWaj0GWj6R3GiqFA?autoplay=1',
         5,
+        
         "José Bonaparte",
         "Me cambió por completo",
         "Gracias al Dr. Renato, obtuve los mejores resultados, me mostró sus casos y me explicó el procedimiento para el tratamiento, buena la atención en todo momento.",
         "{{url('img/dr.jpg')}}",
-        'https://www.youtube.com/watch?v=X64i-cl6nzk',
+        'https://www.youtube.com/embed/-So9LQNpD2M?si=9RixlQ4HflDRzvsI?autoplay=1',
         4,
     ]
 

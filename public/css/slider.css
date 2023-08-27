@@ -20,13 +20,13 @@ ul, li {
     list-style: none;
 }
 
-ul.slider{
+ul.slider1, ul.slider2, ul.slider3{
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-ul.slider li {
+.slider1 li {
     position: absolute;
     left: 0px;
     top: 0px;
@@ -37,26 +37,57 @@ ul.slider li {
     background:#fff;
 }
 
-ul.slider li img{
+.slider2 li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#fff;
+}
+.slider3 li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#fff;
+}
+
+ul.slider1 li img, ul.slider2 li img, ul.slider3 li img{
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-ul.slider li:first-child {
+ul.slider1 li:first-child, ul.slider2 li:first-child, ul.slider3 li:first-child {
     opacity: 1; /*Mostramos el primer <li>*/
 }
 
-ul.slider li:target {
-    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+/*
+.slider1 li:target {
+    opacity: 1;
 }
+
+.slider2 li:target{
+    opacity: 1;
+}
+
+.slider3 li:target {
+    opacity: 1;
+}
+*/
 
 .menu{
   position: absolute;
   text-align: center;
   margin: 20px;
   width: 100%;
-  top:90%;
+  top:95%;
   margin: 0px
 }
 
@@ -77,7 +108,7 @@ ul.slider li:target {
   background-color: white;
   opacity: 0.8;
   position: relative;
-  top: -25%;
+  top: -20%;
   z-index: 999;
   text-align: center;
   margin-left: 20%;
@@ -89,6 +120,185 @@ ul.slider li:target {
   font-size: 20px;
   font-weight: bold;
 }
+
+.menu-pagina .menu-celular{
+    display:none;
+}
+
+@media (max-width:750px){
+  /* menu  */
+  .menu-pagina{
+    border-radius: 0px;
+    transform: translate(0px, 0px);
+    position: relative;
+  }
+  .menu-pagina .menu-web, .footer .footer-web{
+      display:none;
+  }
+  .menu-pagina .menu-celular{
+    display:block !important;
+  }
+  .menu-pagina .menu-celular .izq{
+      width: 80%;
+  }
+  .menu-pagina .menu-celular .der{
+      width: 20%;
+      display: flex;
+      align-items: center;
+  }
+  
+  .menu-pagina .menu-vertical{
+    width: 55%;
+    position: absolute;
+    top: 80px;
+    left: 45%;
+  }
+  .menu-pagina .ul-vertical{
+      display:block;
+  }
+  .menu-pagina .ul-vertical li{
+    padding: 10px;
+    background: black;
+    color: white;
+  }
+  .visible{
+      display:block !important;
+  }
+  
+  .testimonios-marco .der .video iframe {
+    height: 300px  !important;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .testimonios-marco, .cambios-marco {
+    height: 100% !important;
+  }
+  
+  .menu-celular h3, .menu-celular svg{
+      color:white;
+      font-size: 30px;
+  }
+  .menu-celular .menu-button{
+      border: none;
+      background: black;
+  }
+  .menu-celular img {
+    height: 50px !important;
+    margin-left: 10px !important;
+  }
+  
+  .indicaciones-marco{
+      margin:20px;
+      height:100% !important;
+  }
+  .indicaciones-marco ul li{
+      list-style: disc;
+      margin-left:20px;
+  }
+  .indicaciones-botones div{
+      width:50%
+  }
+  .indicaciones-botones a{
+      padding:20px;
+      padding-top:5px;
+      padding-bottom:5px;
+  }
+  
+  
+  
+  
+  .clinica-marco{
+    height:100% !important;
+  }
+  .clinica-marco .foto-clinica{
+      text-align:center;
+  }
+  .clinica-marco .img{
+      width:50% !important;
+      margin-left: -50px;
+  }
+  
+  
+  
+  .medico-marco{
+      padding:20px;
+  }
+  .medico-marco, .cambios-marco{
+      height:100% !important;
+  }
+  
+  .medico-marco .perfil{
+      padding:10px;
+  }
+  .medico-marco .medico-card{
+      margin-bottom:30px;
+  }
+  
+  .medico-marco .perfil .col-md-2{
+      width:30%;
+  }
+  .medico-marco .perfil .col-md-10{
+      width:70%;
+  }
+  
+  .medico-marco .perfil .col-md-10 h4{
+      padding-top: 15px;
+      font-weight: 900;
+  }
+  
+  
+  
+  .cambios-marco .antes{
+      width:50%;
+      margin-bottom:75px !important;
+  }
+  
+  .cambios-marco .boton-siguiente-oculto{
+      display:block !important;
+      text-align: left !important;
+  }
+  .cambios-marco .boton-siguiente{
+      display:none;
+  }
+  
+  .etiqueta{
+      top: -130px !important;
+      width: 90%;
+      margin-left: 5%;
+  }
+  .etiqueta label{
+      padding: 5px;
+      font-weight:900
+  }
+  .marco-banner{
+      height:100%;
+  }
+  .marco-banner .container{
+      min-height: 500px;
+  }
+  .marco-banner .menu{
+      top:90% !important;
+  }
+  .clinica-marco svg, .marco-banner .menu svg{
+    font-size: 20px !important;
+    padding: 10px;
+  }
+  
+  
+  
+  .testimonios-marco .der .video{
+    width:100%;
+  }
+  
+  
+  
+  .footer .footer-celular{
+      display:flex !important;
+  }
+}
+
 
 @media (min-width:1368px) {
   .medico-marco h5{
@@ -129,6 +339,11 @@ ul.slider li:target {
 
   .cambios-marco .accordion-button{
     padding: 20px !important;
+  }
+  
+  .cambios-marco .accordion-boton:hover{
+      cursor:pointer;
+      background:#eee;
   }
 
 }
@@ -239,12 +454,16 @@ ul.slider li:target {
 }
 
 .indicaciones-marco a{
-  font-size: 10px;
+  font-size: 12px;
   border-radius: 20px;
-  padding: 6px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-weight: bold;
+  padding: 15px;
+  
+  font-weight: 900;
+}
+.indicaciones-marco ul, .indicaciones-marco li{
+  list-style: disc !important;
+  margin-left:20px;
+  list-style:disk;
 }
 
 
@@ -297,6 +516,10 @@ ul.slider li:target {
 .testimonios-marco .der{
   background-color: #E5B90D;
 }
+.testimonios-marco .der .video iframe{
+  height:400px;
+}
+
 
 .testimonios-marco .row{
   height: 100%;
@@ -381,12 +604,10 @@ ul.slider li:target {
   font-size: 12px;
   text-align: justify;
 }
-
 .cambios-marco svg{
   font-size: 30px;
   color: #E5B90D;
 }
-
 .cambios-marco .accordion-button{
   background-color: #E5B90D;
   color: black;
@@ -414,7 +635,10 @@ ul.slider li:target {
 .cambios-marco .antes{
   margin-top: 30px;
 }
-
 .cambios-marco .antes p{
   font-size: 10px;
+}
+.cambio-seleccionado{
+    background-color: #3b86fb !important;
+    font-weight: bold;
 }

@@ -76,6 +76,10 @@
             opacity: 1;
             display:block !important;
         }
+        
+        .footer .footer-celular{
+            display:none;
+        }
 
         .aparecer{
             display:none !important;

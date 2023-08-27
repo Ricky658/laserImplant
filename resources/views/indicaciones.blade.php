@@ -15,8 +15,6 @@
             </p>
 
             <ul>
-                <li></li>
-                
                 <li>Hielo local constante por 6 horas </li>
                 <li>No ESCUPIR por 5 días </li>
                 <li>No Fumar por 2 meses </li>
@@ -32,7 +30,7 @@
                 Es fuertemente recomendado acudir a los 10 días a Laserimplant y tomarse una Radiografía Panorámica Digital y poder realizar un control para GARANTIZAR su tratamiento
             </p>
 
-            <div class="row">
+            <div class="row indicaciones-botones">
                 <div class="col-md-4">
                     <a class="btn btn-warning">AGENDAR CITA AQUI</a>
                 </div>

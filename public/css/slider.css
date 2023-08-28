@@ -103,7 +103,7 @@ ul.slider1 li:first-child, ul.slider2 li:first-child, ul.slider3 li:first-child 
   font-size: 20px;
 }
 
-.etiqueta{
+.marco-banner .etiqueta{
   border-radius: 15px;
   background-color: white;
   opacity: 0.8;
@@ -299,6 +299,14 @@ ul.slider1 li:first-child, ul.slider2 li:first-child, ul.slider3 li:first-child 
   }
 }
 
+@media (max-width:1550px){
+  .menu-web .col-md-5{
+    width:30%;
+  }
+  .menu-web .col-md-7{
+    width:70%;
+  }
+}
 
 @media (min-width:1368px) {
   .medico-marco h5{
@@ -346,6 +354,10 @@ ul.slider1 li:first-child, ul.slider2 li:first-child, ul.slider3 li:first-child 
       background:#eee;
   }
 
+  .medico-card img{
+    min-height: 300px !important;
+    max-height: 300px !important;
+  }
 }
 
 .medico-marco, .indicaciones-marco, .clinica-marco{
@@ -380,6 +392,10 @@ ul.slider1 li:first-child, ul.slider2 li:first-child, ul.slider3 li:first-child 
 .medico-card  img{
   border-radius: 10px;
   width: 100%;
+  min-height: 200px;
+  max-height: 200px;
+  margin-bottom: 30px;
+  object-fit: cover;
 }
 
 .medico-card a{
@@ -642,3 +658,105 @@ ul.slider1 li:first-child, ul.slider2 li:first-child, ul.slider3 li:first-child 
     background-color: #3b86fb !important;
     font-weight: bold;
 }
+
+
+
+
+/* tipos  */
+.menu-tipos{
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+}
+.menu-tipos .row .marco-a img,
+.menu-tipos .row .marco-b img,
+.menu-tipos .row .marco-c img,
+.menu-tipos .row .marco-d img,
+.menu-tipos .row .marco-e img{
+  width:100%;
+  min-height: 33vh;
+  max-height: 33vh;
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+}
+.menu-tipos .row .marco-a .etiqueta,
+.menu-tipos .row .marco-b .etiqueta,
+.menu-tipos .row .marco-c .etiqueta,
+.menu-tipos .row .marco-d .etiqueta,
+.menu-tipos .row .marco-e .etiqueta{
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #b3b3b3;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.menu-tipos .row .marco-c .etiqueta,
+.menu-tipos .row .marco-d .etiqueta,
+.menu-tipos .row .marco-e .etiqueta{
+  font-size: 20px;
+}
+
+
+
+
+.menu-odontologia-especialides{
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+}
+.menu-odontologia-especialides .col-md-3{
+  height: 35vh;
+}
+.menu-odontologia-especialides .row .marco-a img,
+.menu-odontologia-especialides .row .marco-b img,
+.menu-odontologia-especialides .row .marco-c img,
+.menu-odontologia-especialides .row .marco-d img,
+.menu-odontologia-especialides .row .marco-e img{
+  width:100%;
+  height: 35vh;
+  border-radius: 20px;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+.menu-odontologia-especialides .letras{
+  margin-top: -120px;
+  position: absolute;
+}
+.menu-odontologia-especialides .numero,
+.menu-odontologia-especialides .titulo{
+  color:white;
+  font-weight: 900;
+}
+.menu-odontologia-especialides .titulo{
+  font-size: 24px;
+}
+.menu-odontologia-especialides .descripcion{
+  color:white;
+  margin-top: -200px;
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -14,24 +14,40 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('inicio');
+    return view('inicio/index');
 });
+
+
 
 Route::get('/medicos', function () {
     return view('medicos.index');
 });
-
 Route::get('/medicos/1/perfil', function () {
     return view('medicos.perfil1');
 });
-
 Route::get('/medicos/2/perfil', function () {
     return view('medicos.perfil2');
 });
-
 Route::get('/medicos/3/perfil', function () {
     return view('medicos.perfil3');
 });
+
+
+
+
+Route::get('/odontologia', function () {
+    return view('/inicio/odontologia');
+});
+Route::get('/odontologia/especialidades', function () {
+    return view('/inicio/odontologia_especialidades');
+});
+Route::get('/cirugia', function () {
+    return view('/inicio/cirugia');
+});
+Route::get('/implantes', function () {
+    return view('/inicio/implantes');
+});
+
 
 
 Route::get('/indicaciones', function () {

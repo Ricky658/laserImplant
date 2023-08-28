@@ -3,9 +3,9 @@
 <link rel="stylesheet" href="{{ url('css/slider.css') }}">
 
 <div class="col-md-12 testimonios-marco">
-    <div class="row m-0 mt-3">
+    <div class="row m-0">
         <div class="col-md-5 izq">
-            <div class="offset-md-2 col-md-8">
+            <div class="offset-md-2 col-md-8 mt-5">
                 <h4>Mira lo que dicen <br> algunos de nuestros <br> pacientes</h4>
                 <div class="botonera">
                     <button onclick="cambiarTestimonio(-1)" class="btn btn-sm btn-izquierda"><i class="fa-solid fa-arrow-left-long"></i></button>
@@ -34,7 +34,7 @@
             </div>
         </div>
         <div class="col-md-7 der">
-            <div class="offset-xl-2 col-xl-8 offset-md-1 col-md-10 video">
+            <div class="offset-xl-2 col-xl-8 offset-md-1 col-md-10 video mt-5">
                 <iframe id="testimonio_youtube" width="560" height="315" src="https://www.youtube.com/embed/v0nNa0hdC90?si=MWaj0GWj6R3GiqFA?enablejsapi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>

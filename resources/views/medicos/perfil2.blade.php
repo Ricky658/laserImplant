@@ -4,10 +4,10 @@
 
 <div class="offset-md-1 col-md-10 medico-marco">
     <div class="row perfil">
-        <div class="col-md-6 mt-5">
+        <div class="col-md-5 mt-5">
             <div class="row">
                 <div class="col-md-2">
-                    <img src="{{url('img/dra.jpg')}}">
+                    <img src="{{url('img/doctores/dr_renato.jpg')}}">
                 </div>
                 <div class="col-md-10">
                     <h4>Dr. Renato Cisneros</h4>
@@ -24,7 +24,7 @@
             </p>
             </div>
         </div>
-        <div class="col-md-6 mt-5">
+        <div class="offset-md-1 col-md-6 mt-5">
             <iframe width="560" height="400" src="https://www.youtube.com/embed/8JyQfb8vR9U?si=05z5rgDaaLnb4rou" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </div>
